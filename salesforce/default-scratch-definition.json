@@ -5,12 +5,14 @@
   "adminEmail": "edelrabe@gmail.com",
   "edition": "Developer",
   "language": "en_US",
-  "features": "",
-  "orgPreferences": {
-    "enabled": [
-      "S1DesktopEnabled",
-      "Translation"
-    ],
-    "disabled": []
+  "features": "ServiceCloud,PlatformCache",
+  "settings": {
+    "orgPreferenceSettings": {
+      "S1DesktopEnabled": true,
+      "Translation": true,
+      "ChatterEnabled": true,
+      "SelfSetPasswordInApi": true,
+      "S1EncryptedStoragePref2": false
+    }
   }
 }
